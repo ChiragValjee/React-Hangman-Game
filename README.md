@@ -1,70 +1,22 @@
-# Getting Started with Create React App
+Hangman is a guessing game where one player thinks of a word, phrase, or sentence and the other player tries to guess it by suggesting letters or numbers one at a time. The game is won if the guessing player can guess the word before they run out of guesses, which typically involve drawing a stick figure as the "hanged man".
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Installation
+To install and run this Hangman game on your local machine, follow these instructions:
 
-## Available Scripts
+1) Clone the repository to your local machine using the command: git clone https://github.com/ChiragValjee/React-Hangman-Game.git
+2) Navigate to the project directory: cd hangman
+3) Install the dependencies using the command: npm install
+4 )Start the development server using the command: npm start
 
-In the project directory, you can run:
+5) Open your browser and go to http://localhost:3000/ to play the game.
 
-### `npm start`
+How to Play
+1) When you open the game, you will see a blank space for each letter of the word you need to guess.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+2) Click on the letters to make a guess. If the letter is in the word, it will appear in its correct position(s). If the letter is not in the word, a part of the "hanged man" will be drawn.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+3) You have a limited number of guesses, so use them wisely. If you guess the word correctly before the "hanged man" is fully drawn, you win. Otherwise, you lose.
 
-### `npm test`
+4) After the game is over, you can choose to play again by clicking the "Play Again" button.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+That's it! Have fun playing Hangman.
